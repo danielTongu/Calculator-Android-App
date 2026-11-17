@@ -162,6 +162,13 @@ The shared key style removes theme-dependent insets and keeps labels on one line
 
 AGP 8.13 documents Gradle 8.13, SDK Build Tools 35.0.0, and JDK 17 as its compatibility baseline [2].
 
+Clone the repository if a local checkout is not already available:
+
+```sh
+git clone https://github.com/danielTongu/Calculator-Android-App.git
+cd Calculator-Android-App
+```
+
 1. Open the project root in Android Studio.
 2. Install Android SDK Platform 34 and SDK Build Tools 35.0.0 through SDK Manager.
 3. Select JDK 17 under **Settings → Build, Execution, Deployment → Build Tools → Gradle → Gradle JDK**.
@@ -173,6 +180,8 @@ For terminal builds, set `JAVA_HOME` to an installed JDK 17 and execute:
 ```sh
 ./gradlew testDebugUnitTest assembleDebug lintDebug
 ```
+
+The debug APK is written to `app/build/outputs/apk/debug/` after a successful build.
 
 On Windows, use `gradlew.bat`. The wrapper selects the project's pinned Gradle distribution. The compilation toolchain does not change the JVM that initially launches Gradle. Upgrade AGP, Gradle, and the build JVM as a compatible combination; assess Android target SDK changes separately.
 
