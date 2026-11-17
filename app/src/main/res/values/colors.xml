@@ -2,4 +2,15 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="calculator_background">#111318</color>
+    <color name="calculator_key">#23262E</color>
+    <color name="calculator_function">#30343E</color>
+    <color name="calculator_operator">#3D3428</color>
+    <color name="calculator_accent">#FFD18A</color>
+    <color name="calculator_accent_text">#2B1C06</color>
+    <color name="calculator_text">#F4F1EB</color>
+    <color name="calculator_secondary_text">#ABAEB8</color>
+    <color name="calculator_numeric">#FF8033</color>
+    <color name="calculator_clear_all">#FF3377</color>
+    <color name="calculator_clear">#337DFF</color>
 </resources>
